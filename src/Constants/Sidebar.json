@@ -1,0 +1,423 @@
+[
+  {
+    "title": "Content Management",
+    "icon": "bi bi-folder-fill",
+    "childrens": [
+      {
+        "title": "Company Category",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Company Category",
+            "icon": "bi bi-folder-fill",
+            "path": "/companycategory/addcompanycategory"
+          },
+          {
+            "title": "List of Company Category",
+            "icon": "bi bi-folder-fill",
+            "path": "/companycategory/listcompanycategory"
+          }
+        ]
+      },
+      {
+        "title": "Location Master",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Location",
+            "icon": "bi bi-folder-fill",
+            "path": "/locationmaster/addlocation"
+          },
+        
+          {
+            "title": "List of Location",
+            "icon": "bi bi-folder-fill",
+            "path": "/locationmaster/locationlist"
+          }
+        ]
+      },
+      {
+        "title": "Company Master",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Company",
+            "icon": "bi bi-folder-fill",
+            "path": "/companymaster/addcompany"
+          },
+          {
+            "title": "List of Companies",
+            "icon": "bi bi-folder-fill",
+            "path": "/companymaster/listofcompanies"
+          }
+        ]
+      },
+      {
+        "title": "Event Categories",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add New Category",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventcategories/addnewcategory"
+          },
+          {
+            "title": "List of Categories",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventcategories/listofcategories"
+          }
+        ]
+      },
+      {
+        "title": "Event Organizers",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add New Organizer",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventorganizers/addeventorganizer"
+          },
+          {
+            "title": "List of Event Organizer",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventorganizers/listeventorganizer"
+          }
+        ]
+      },
+      {
+        "title": "Event Sessions",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add New Session",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventsessions/addnewsession"
+          },
+          {
+            "title": "List of Session",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventsessions/listofsession"
+          }
+        ]
+      },
+      {
+        "title": "Events",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add New Event",
+            "icon": "bi bi-folder-fill",
+            "path": "/event/addnewevent"
+          },
+          {
+            "title": "List of Events",
+            "icon": "bi bi-folder-fill",
+            "path": "/event/listofevents"
+          }
+        ]
+      },
+      {
+        "title": "Speakers",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add New Speaker",
+            "icon": "bi bi-folder-fill",
+            "path": "/speakers/addnewspeaker"
+          },
+          {
+            "title": "List of Speakers",
+            "icon": "bi bi-folder-fill",
+            "path": "/speakers/listofspeakers"
+          },
+          {
+            "title": "Add New Paper",
+            "icon": "bi bi-folder-fill",
+            "path": "/speakers/addnewpaper"
+          },
+          {
+            "title": "List of Papers",
+            "icon": "bi bi-folder-fill",
+            "path": "/speakers/listofpapers"
+          }
+        ]
+      },
+      {
+        "title": "Sponsors",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add New Sponsor",
+            "icon": "bi bi-folder-fill",
+            "path": "/sponsors/addnewsponsors"
+          },
+          {
+            "title": "List of Sponsor",
+            "icon": "bi bi-folder-fill",
+            "path": "/sponsors/listofsponsors"
+          }
+        ]
+      },
+      {
+        "title": "Exhibitors",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add New Exhibitor",
+            "icon": "bi bi-folder-fill",
+            "path": "/exhibitors/addnewexhibitor"
+          },
+          {
+            "title": "List of Exhibitors",
+            "icon": "bi bi-folder-fill",
+            "path": "/exhibitors/listofexhibitors"
+          }
+        ]
+      },
+      {
+        "title": "Event Schedules",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Event Schedule",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventschedules/addeventschedule"
+          },
+          {
+            "title": "List of Event Schedule",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventschedules/listeventschedule"
+          }
+        ]
+      },
+      {
+        "title": "Delegates",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Event Delegate",
+            "icon": "bi bi-folder-fill",
+            "path": "/delegates/addnewdelegate"
+          },
+          {
+            "title": "List of Delegates",
+            "icon": "bi bi-folder-fill",
+            "path": "/delegates/listofdelegate"
+          },
+          {
+            "title": "Delegates Attendence",
+            "icon": "bi bi-folder-fill",
+            "path": "/delegates/delegateattendence"
+          }
+        ]
+      },
+      {
+        "title": "Helpline",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Event Helpline",
+            "icon": "bi bi-folder-fill",
+            "path": "/helpline/addnewhelpline"
+          },
+          {
+            "title": "List of Helpline",
+            "icon": "bi bi-folder-fill",
+            "path": "/helpline/listofhelplines"
+          }
+        ]
+      },
+      {
+        "title": "Feedback",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Feedback Parameters",
+            "icon": "bi bi-folder-fill",
+            "path": "/helpline/addfeedbackparameters"
+          },
+          {
+            "title": "List of Feedbacks Parameters",
+            "icon": "bi bi-folder-fill",
+            "path": "/helpline/listofeedbackparameters"
+          }
+        ]
+      },
+      {
+        "title": "Advertisement",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add New Advertisement",
+            "icon": "bi bi-folder-fill",
+            "path": "/advertisement/addnewadvertisement"
+          },
+          {
+            "title": "List of Advertisement",
+            "icon": "bi bi-folder-fill",
+            "path": "/advertisement/listofadvertisements"
+          }
+        ]
+      },
+      {
+        "title": "Gallery",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Upload Documents",
+            "icon": "bi bi-folder-fill",
+            "path": "/gallery/uploaddocuments"
+          },
+          {
+            "title": "List of Documents",
+            "icon": "bi bi-folder-fill",
+            "path": "/gallery/listofdocuments"
+          }
+        ]
+      },
+      {
+        "title": "Event Banners",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Event Banner",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventbanners/addeventbanner"
+          },
+          {
+            "title": "List of Banners",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventbanners/listofbanners"
+          }
+        ]
+      },
+      {
+        "title": "DG Message",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add DG Message",
+            "icon": "bi bi-folder-fill",
+            "path": "/dgmessage/adddgmessage"
+          }
+        ]
+      },
+      {
+        "title": "Event Location Facts",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Event Location Facts",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventlocationfacts/addeventlocationfacts"
+          },
+          {
+            "title": "List of Facts",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventlocationfacts/listofacts"
+          },
+          {
+            "title": "Add Banners",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventlocationfacts/addbanners"
+          },
+          {
+            "title": "List of Location Banners",
+            "icon": "bi bi-folder-fill",
+            "path": "/eventlocationfacts/listoflocationbanners"
+          }
+        ]
+      },
+      {
+        "title": "Registration Details",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Registration Details",
+            "icon": "bi bi-folder-fill",
+            "path": "/registrationdetails/addregistrationdetails"
+          }
+        ]
+      },
+      {
+        "title": "Exhibition Details",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Exhibition Details",
+            "icon": "bi bi-folder-fill",
+            "path": "/exhibitiondetails/addexhibitiondetails"
+          }
+        ]
+      },
+      {
+        "title": "Meetings",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add Meeting Details",
+            "icon": "bi bi-folder-fill",
+            "path": "/meetings/addmeetingdetails"
+          },
+          {
+            "title": "List of Meetings",
+            "icon": "bi bi-folder-fill",
+            "path": "/meetings/listofmeetings"
+          }
+        ]
+      },
+      {
+        "title": "About Organization",
+        "icon": "bi bi-folder-fill",
+        "childrens": [
+          {
+            "title": "Add About Organization",
+            "icon": "bi bi-folder-fill",
+            "path": "/aboutorganization/addaboutorganization"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Reports",
+    "icon": "bi bi-folder-fill",
+    "childrens": [
+      {
+        "title": "Event Delegates",
+        "path": "/reports/eventdelegates"
+      },
+      {
+        "title": "Summary Report",
+        "path": "/reports/summaryreport"
+      },
+      {
+        "title": "Address Level for Delegates",
+        "path": "/reports/addresslevelfordelegates"
+      },
+      {
+        "title": "Feedbacks",
+        "path": "/reports/feedbacks"
+      }
+    ]
+  },
+  {
+    "title": "Settings",
+    "icon": "bi bi-folder-fill",
+    "childrens": [
+      {
+        "title": "App Menus",
+        "childrens": [
+          {
+            "title": "List of Menus",
+            "path": "/settings/appmenus/listofmenus"
+          },
+          {
+            "title": "Menus Details",
+            "path": "/settings/appmenus/menudetails"
+          }
+        ]
+      }
+    ]
+  }
+]

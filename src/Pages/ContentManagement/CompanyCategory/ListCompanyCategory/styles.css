@@ -1,0 +1,56 @@
+.responsive-button {
+  background-color: #3490dc;
+  color: #fff;
+  padding: 8px 16px;
+  margin: 4px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 768px) {
+  .responsive-button {
+    padding: 6px 12px;
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .responsive-button {
+    padding: 4px 8px;
+    font-size: 12px;
+  }
+}
+
+.responsive-select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 4px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .responsive-select {
+    padding: 4px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .overflow-x-auto {
+    overflow-x: auto;
+  }
+  table {
+    min-width: 100%;
+  }
+  th,
+  td {
+    white-space: nowrap;
+  }
+  .responsive-select {
+    padding: 6px;
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,226 @@
+body,
+html,
+div,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+/*app styles */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+
+/* Header styles */
+.header {
+  background-color: #3c8dbc;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+/* Header content */
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.headerHeading {
+  width: 95%;
+  background-color: #367fa9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 43px;
+  font-size: 14px;
+}
+
+.leftHeaderContent {
+  display: flex;
+  width: 247px;
+}
+
+.rightHeaderContent {
+  display: flex;
+    justify-content: center;
+}
+
+/* Toggle Sidebar */
+.toggleButton {
+  background: none;
+  border: none;
+  font-size: 17px;
+  color: #fff;
+  cursor: pointer;
+  margin-left: 14px;
+}
+
+.username {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.profileSvg {
+  fill: #fff;
+  width: 24px;
+  height: 24px;
+}
+
+/* Sidebar styles */
+.sidebar {
+  background-color: #222d32;
+  color: #fff;
+  width: 208px;
+  overflow-x: hidden;
+  transition: all 0.3s ease;
+}
+
+/* Sidebar open */
+.sidebar.open {
+  width: 0;
+}
+
+
+/* Folder Item Header */
+.itemHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer; 
+}
+.innerItemHeader{
+  font-size: 13px;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  color: #B8C7CE;
+}
+.svgFolder{
+  width: 13%;
+  height: 7%;
+}
+
+/* Toggle Button */
+.toggleButtonList {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.arrowIcon {
+  width: 24px;
+  height: 24px;
+  fill: #555;
+  transition: transform 0.3s ease;
+}
+
+.arrowIcon.open {
+  transform: rotate(180deg);
+}
+
+/* Folder Item styles */
+.folderItem {
+  margin: 20px 0px;
+  list-style-type: none;
+}
+
+/* Subitem List styles */
+.subItemList {
+  list-style: none;
+  padding-left: 20px;
+  display: none;
+}
+.listText{
+  
+}
+
+/*nested items */
+.subItemList.open {
+  display: block;
+}
+
+.itemList{
+  margin: 15px;
+}
+
+.searchContainer {
+  display: flex;
+  align-items: center;
+  border: none;
+  transition: background-color 0.3s ease;
+  margin: 11px 20px;
+}
+
+/* Search icon*/
+.searchIcon {
+  /* color: #555; */
+  background-color: #374850;
+  height: 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 11px;
+}
+
+/* Search Input */
+.searchInput {
+  width: 100%;
+    padding: 3px;
+    border: none;
+    background-color: #374850;
+    color: #999999;
+    height: 33px;
+    border-radius: 0;
+}
+.searchInput:focus{
+  background-color: white;
+  border: none;
+}
+
+/* header and main body*/
+.content {
+  flex: 1;
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Main Body */
+.mainBody {
+  flex: 1;
+  padding: 20px;
+  /* background-color: #f0f0f0; */
+  transition: all 0.3s ease;
+ 
+  overflow-y: auto; /* Add vertical scroll if content exceeds max height */
+}
+
+
+
+  /* Responsive Styles */
+  @media (max-width: 1024px) {
+    .headerHeading {
+      font-size: 12px;
+    }
+    
+  }
+  @media (max-width: 768px) {
+    .headerHeading {
+     display: none;
+    }
+    .header {
+      height: 40px;
+    }
+  }
